@@ -35,7 +35,7 @@
                 </includes>
               </artifactSet>
               <transformers>
-                <transformer implementation="org.apache.maven.plugins.shade.resource.ComponentsXmlResourceTransformer" />
+                <transformer implementation="org.apache.maven.plugins.shade.resource.ComponentsXmlResourceTransformer"/>
               </transformers>
             </configuration>
           </execution>
@@ -65,7 +65,7 @@
     <dependency>
       <groupId>org.graniteds</groupId>
       <artifactId>granite-generator</artifactId>
-      <version>1.1.0</version>
+      <version>3.1.1.GA</version>
       <exclusions>
         <exclusion>
           <groupId>ant</groupId>
@@ -82,7 +82,7 @@
     <dependency>
       <groupId>org.codehaus.groovy</groupId>
       <artifactId>groovy</artifactId>
-      <version>1.6.2</version>
+      <version>1.6.9</version>
       <exclusions>
         <exclusion>
           <groupId>junit</groupId>
