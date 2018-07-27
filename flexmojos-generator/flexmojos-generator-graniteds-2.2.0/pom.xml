@@ -41,7 +41,7 @@
     <dependency>
       <groupId>org.graniteds</groupId>
       <artifactId>granite-generator</artifactId>
-      <version>2.2.0.RC2</version><!-- FIXME refactor, use a property -->
+      <version>3.1.1.GA</version><!-- FIXME refactor, use a property -->
       <exclusions>
         <exclusion>
           <groupId>ant</groupId>
@@ -63,7 +63,7 @@
     <dependency>
       <groupId>org.codehaus.groovy</groupId>
       <artifactId>groovy-all</artifactId>
-      <version>1.6.2</version>
+      <version>1.6.9</version>
       <exclusions>
         <exclusion>
           <groupId>junit</groupId>
